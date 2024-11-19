@@ -79,6 +79,24 @@ import s_img3 from './s_img3.jpeg'
 import s_img4 from './s_img4.jpeg'
 import s_img5 from './s_img5.jpeg'
 import s_img6 from './s_img6.jpeg'
+import th from './th.jpg'
+import capcicam from './capcicam.jpeg'
+import korralu from './korralu.jpeg'
+import brice from './brice.jpeg'
+import blackrice from './blackrice.jpeg'
+import ragulu from './ragulu.jpg'
+import saddalu from './saddalu.jpg'
+import dryfruts from './dryfruts.jpg'
+import blackbeens from './blackbeens.jpg'
+import groundnut from './groundnut.jpg'
+import ghee from './ghee.jpg'
+import honey from './honey.jpg'
+import groundoil from './groundoil.jpg'
+import cowghee from './cowghee.jpg'
+import mirchi from './mirchi.jpg'
+import logoo from './logoo.jpg'
+
+
 
 export const assets = {
     hero,
@@ -98,6 +116,7 @@ export const assets = {
     contact_img,
     star_dull_icon,
     s_img1,
+    th,
 
 
    /* cart_icon,
@@ -118,6 +137,7 @@ export const assets = {
     cross_icon*/
     about_img,
     star_icon,
+    logoo,
 }
 
 export const products = [
@@ -183,11 +203,11 @@ export const products = [
     },
     {
         _id: "aaaaf",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Korralu",
+        description: "Korralu",
         price: 140,
-        image: [p_img6],
-        category: "Kids",
+        image: [korralu],
+        category: "AndKorralu",
         subCategory: "Topwear",
         sizes: ["S", "L", "XL"],
         date: 1716623423448,
@@ -195,10 +215,10 @@ export const products = [
     },
     {
         _id: "aaaag",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
-        image: [p_img7],
+        name: "Capcicam",
+        description: "",
+        price: 20,
+        image: [capcicam],
         category: "Men",
         subCategory: "Bottomwear",
         sizes: ["S", "L", "XL"],
@@ -207,10 +227,10 @@ export const products = [
     },
     {
         _id: "aaaah",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Brown Rice",
+        description: "brice",
         price: 140,
-        image: [p_img8],
+        image: [brice],
         category: "Men",
         subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
@@ -219,10 +239,10 @@ export const products = [
     },
     {
         _id: "aaaai",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Ragulu",
+        description: "ragulu",
         price: 100,
-        image: [p_img9],
+        image: [ragulu],
         category: "Kids",
         subCategory: "Topwear",
         sizes: ["M", "L", "XL"],
@@ -231,10 +251,10 @@ export const products = [
     },
     {
         _id: "aaaaj",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Saddalu",
+        description: "saddalu",
         price: 110,
-        image: [p_img10],
+        image: [saddalu],
         category: "Men",
         subCategory: "Bottomwear",
         sizes: ["S", "L", "XL"],
@@ -243,10 +263,10 @@ export const products = [
     },
     {
         _id: "aaaak",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Dryfruits",
+        description: "dryfruts",
         price: 120,
-        image: [p_img11],
+        image: [dryfruts],
         category: "Men",
         subCategory: "Topwear",
         sizes: ["S", "M", "L"],
@@ -255,10 +275,10 @@ export const products = [
     },
     {
         _id: "aaaal",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Blackbeen",
+        description: "blackbeen",
         price: 150,
-        image: [p_img12],
+        image: [blackbeens],
         category: "Men",
         subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
@@ -267,10 +287,10 @@ export const products = [
     },
     {
         _id: "aaaam",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Groundnut",
+        description: "groundnut",
         price: 130,
-        image: [p_img13],
+        image: [groundnut],
         category: "Women",
         subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
@@ -279,10 +299,10 @@ export const products = [
     },
     {
         _id: "aaaan",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Ghee",
+        description: "ghee",
         price: 160,
-        image: [p_img14],
+        image: [ghee],
         category: "Kids",
         subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
@@ -291,10 +311,10 @@ export const products = [
     },
     {
         _id: "aaaao",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Groundnut oil",
+        description: "groundnutoil",
         price: 140,
-        image: [p_img15],
+        image: [groundoil],
         category: "Men",
         subCategory: "Bottomwear",
         sizes: ["S", "M", "L", "XL"],
@@ -303,10 +323,10 @@ export const products = [
     },
     {
         _id: "aaaap",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Honey",
+        description: "honey",
         price: 170,
-        image: [p_img16],
+        image: [honey],
         category: "Kids",
         subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
@@ -315,10 +335,10 @@ export const products = [
     },
     {
         _id: "aaaaq",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Mirchi",
+        description: "Mirchi",
         price: 150,
-        image: [p_img17],
+        image: [mirchi],
         category: "Men",
         subCategory: "Bottomwear",
         sizes: ["S", "M", "L", "XL"],
@@ -327,10 +347,10 @@ export const products = [
     },
     {
         _id: "aaaar",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Cowghee",
+        description: "cowghee",
         price: 180,
-        image: [p_img18],
+        image: [cowghee],
         category: "Kids",
         subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
